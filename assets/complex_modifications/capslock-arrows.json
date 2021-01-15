@@ -243,6 +243,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Hyperkey + G -> Open GitKraken",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'GitKraken.app'"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
