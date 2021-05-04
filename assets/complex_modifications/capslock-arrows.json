@@ -267,6 +267,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Hyperkey + c -> Open kakaoTalk",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'KakaoTalk.app'"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
