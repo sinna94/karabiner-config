@@ -51,6 +51,29 @@
           "type": "basic"
         }
       ]
+    },{
+      "description": "Hyperkey + J -> Left arrow",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     },
     {
       "description": "Hyperkey + l -> Right arrow",
@@ -287,6 +310,54 @@
           "to": [
             {
               "shell_command": "open -a 'KakaoTalk.app'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyperkey + s -> Open spark",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Spark.app'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyperkey + q -> Open Edge",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Microsoft Edge.app'"
             }
           ]
         }
