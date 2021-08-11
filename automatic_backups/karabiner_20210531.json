@@ -328,7 +328,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'IntelliJ IDEA.app'"
+                                        "shell_command": "open -a 'IntelliJ IDEA CE.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -377,54 +377,6 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'KakaoTalk.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Hyperkey + s -> Open spark",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control",
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Spark.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Hyperkey + q -> Open Edge",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "q",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_shift",
-                                            "left_command",
-                                            "left_control",
-                                            "left_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Microsoft Edge.app'"
                                     }
                                 ],
                                 "type": "basic"
