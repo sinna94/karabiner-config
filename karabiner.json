@@ -330,7 +330,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'IntelliJ IDEA.app'"
+                                        "shell_command": "open -a 'IntelliJ IDEA Ultimate.app'"
                                     }
                                 ],
                                 "type": "basic"
